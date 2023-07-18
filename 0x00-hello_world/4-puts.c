@@ -1,9 +1,8 @@
-#include <stdio-h>
+#include <stdio.h>
 /**
  * main - This is the main func
- * Return: always 0 (success)
+ *Return: always 0 (success)
  */
-
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
