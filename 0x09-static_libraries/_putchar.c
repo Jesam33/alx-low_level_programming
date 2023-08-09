@@ -46,17 +46,15 @@ int _islower(int c)
  *
  * @c: The character to print
  *
- *
- *
  * Return: On success 1.
  *
  * On error, -1 is returned, and errno is set appropriately.
  *
  */
 
-int _isalpha (int c)
+int _isalpha(int c)
 {
-	return(write(1, &c, 1));
+	return (write(1, &c, 1));
 }
 
 /**
@@ -71,9 +69,9 @@ int _isalpha (int c)
  *
  */
 
-int _abs (int n)
+int _abs(int n)
 {
-	return(write(1, &n, 1));
+	return (write(1, &n, 1));
 }
 
 /**
@@ -88,7 +86,7 @@ int _abs (int n)
  *
  */
 
-int _isupper (int c)
+int _isupper(int c)
 {
-	return(write(1, &c, 1));
+	return (write(1, &c, 1));
 }
